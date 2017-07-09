@@ -8,16 +8,16 @@ namespace _2_LivrosHermione
 {
     class Livros
     {
-        public string Livro;
+        public string Titulo;
         public int pags;
         public int paghora;
         public int horadia;
         public int diasrest;
-        public int demora=0;
+
         
-        public void calculando()
+        public int calculando()
         {
-            demora = (paghora * horadia) / pags;
+            return (paghora * horadia) * diasrest;
 
         }
     }
