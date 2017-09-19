@@ -10,9 +10,13 @@ namespace _6_AreaDoTriangulo
     {
         static void Main(string[] args)
         {
-            Math.
-            
 
+            Triangulo lado = new Triangulo();
+
+             lado.A = Convert.ToDouble(Console.ReadLine());
+             lado.B = Convert.ToDouble(Console.ReadLine());
+             lado.C = Convert.ToDouble(Console.ReadLine());
+             lado.angulo = Convert.ToDouble(Console.ReadLine());
         }
     }
 }

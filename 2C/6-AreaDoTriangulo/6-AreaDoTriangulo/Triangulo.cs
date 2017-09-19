@@ -4,26 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace _6_AreaDoTriangulo
 {
-    class Triangulo
+    
+        class Triangulo
     {
-        double[] cossenos = new double[] { 0.86, 0.7, 0.5 };
+        public double A {get; set;}
+        public double B {get; set;}
+        public double C {get; set;}
+        public double angulo {get; set;}
 
-        public double CalcularPerimetro(double a, double b, double c)
+        public void area
+    {
+        C = (A*B) /2;
+        return  C; 
+    }
+
+        public double cos1 
+
         {
-            return a + b + c;
+            (A * A) = (B*B)+(C*C) - 2 * B * C * (Math.Acos(angulo)); 
+            return A 
         }
         
-        public double CalcularArea(double b, double h)
-        {
-            return (b * h) / 2;
-        }
-
-        public double CalcularArea(int b, double h)
-        {
-            return 1.0;
-        }
     }
+    
 }
