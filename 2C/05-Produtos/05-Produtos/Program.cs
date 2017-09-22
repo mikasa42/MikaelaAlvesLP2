@@ -32,7 +32,7 @@ namespace _05_Produtos
                     Console.WriteLine("Preço cm vírgula");
                     preço = double.Parse(Console.ReadLine());
 
-                    Produto p = new Produto(id, nome, preço);
+                    Produto p = new Produto (id, nome, preço);
 
                     while (operador == 1)
                     {

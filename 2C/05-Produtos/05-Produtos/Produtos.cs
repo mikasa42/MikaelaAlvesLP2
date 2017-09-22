@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _05_Produtos
+namespace _05_Produto
 {
-    class Produtos
+    class Produto
     {
          public int Id { get; private set; }
         public string Nome { get; private set; }
