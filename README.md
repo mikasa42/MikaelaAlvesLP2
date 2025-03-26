@@ -4,10 +4,10 @@ Este repositório contém materiais e exercícios da disciplina Linguagem de Pro
 ## 📖 Sobre a Disciplina
 
 LP2 é uma matéria introdutória à programação, abordando conceitos fundamentais como:
-- ✔️ Variáveis e tipos de dados
-- ✔️ Listas e arrays
-- ✔️ Estruturas condicionais
-- ✔️ Laços de repetição
+- ✔Variáveis e tipos de dados
+- ✔ Listas e arrays
+- ✔ Estruturas condicionais
+- ✔ Laços de repetição
 
 Foi durante essa disciplina que tive meu primeiro contato com programação, ainda no ensino médio integrado com ênfase em informática/programação.
 ## 📂 Conteúdo do Repositório
